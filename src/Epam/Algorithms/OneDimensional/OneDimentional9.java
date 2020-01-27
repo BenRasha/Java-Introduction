@@ -1,4 +1,4 @@
-package Epam.Algorithms;
+package Epam.Algorithms.OneDimensional;
 
 import java.util.Scanner;
 public class OneDimentional9 {
