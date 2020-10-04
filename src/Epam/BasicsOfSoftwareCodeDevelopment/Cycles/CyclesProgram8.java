@@ -1,5 +1,7 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Cycles;
 
+/*Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.*/
+
 import java.util.Scanner;
 public class CyclesProgram8 {
     public static int input()

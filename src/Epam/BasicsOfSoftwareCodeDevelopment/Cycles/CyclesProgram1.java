@@ -1,5 +1,9 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Cycles;
 
+/*Напишите программу, где пользователь вводит любое целое положительное число.
+ А программа суммирует все числа от 1 до введенного пользователем числа.
+ */
+
 import java.util.Scanner;
 public class CyclesProgram1 {
     public static int input()

@@ -1,5 +1,9 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Cycles;
 
+/*Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль которых больше или равен заданному е.
+ Общий член ряда имеет вид:
+ */
+
 import java.util.Scanner;
 public class CyclesProgram5 {
     public static void main(String[]args)

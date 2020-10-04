@@ -1,5 +1,7 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Cycles;
 
+/*Для каждого натурального числа в промежутке от mдо nвывести все делители, кроме единицы и самого числа. mи nвводятся с клавиатуры.*/
+
 import java.util.Scanner;
 public class CyclesProgram7 {
     public static int input()

@@ -1,5 +1,7 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Cycles;
 
+/*Найти сумму квадратов первых ста чисел.*/
+
 public class CyclesProgram3 {
     public static void main(String[] args)
     {

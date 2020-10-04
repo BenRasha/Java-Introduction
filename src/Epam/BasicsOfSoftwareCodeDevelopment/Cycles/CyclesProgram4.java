@@ -1,5 +1,7 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Cycles;
 
+/*Составить программу нахождения произведения квадратов первых двухсот чисел.*/
+
 public class CyclesProgram4 {
     public static void main(String[]args)
     {
