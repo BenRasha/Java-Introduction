@@ -2,7 +2,9 @@ package Epam.BasicsOfSoftwareCodeDevelopment.Linear;
 
 import java.util.Scanner;
 
-public class LinearProgramm1 {
+/*Найдите значение функции: z= ( (a–3 ) * b/ 2) + c.*/
+
+public class LinearProgram1 {
     static public void main(String[] args){
         Scanner scanner=new Scanner(System.in);
         System.out.print("Input a:");

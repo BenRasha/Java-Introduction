@@ -1,7 +1,12 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Linear;
 
 import java.util.Scanner;
-public class LinearProgramm5 {
+
+/* Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах.
+ Вывести данное значение длительности в часах, минутах и секундах в следующей форме:ННч ММмин SSc.
+ */
+
+public class LinearProgram5 {
     public static void main(String[] args)
     {
         Scanner scanner=new Scanner(System.in);

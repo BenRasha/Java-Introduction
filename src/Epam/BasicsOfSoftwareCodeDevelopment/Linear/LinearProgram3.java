@@ -1,7 +1,10 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Linear;
 
 import java.util.Scanner;
-public class LinearProgramm3 {
+
+/*Вычислить значение выражения по формуле (все переменные принимают действительные значения):𝑠𝑖𝑛𝑥+𝑐𝑜𝑠𝑦𝑐𝑜𝑠𝑥−𝑠𝑖𝑛𝑦∗𝑡𝑔𝑥𝑦*/
+
+public class LinearProgram3 {
     static public void main(String[] args){
         Scanner scanner=new Scanner(System.in);
         System.out.print("Input x:");

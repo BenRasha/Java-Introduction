@@ -1,7 +1,10 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Linear;
 
 import java.util.Scanner;
-public class LinearProgramm2 {
+
+/*Вычислить значение выражения по формуле (все переменные принимают действительные значения):𝑏+√𝑏2+4𝑎𝑐2𝑎−𝑎3𝑐+𝑏−2*/
+
+public class LinearProgram2 {
     static public void main(String[] args ){
         Scanner scanner=new Scanner(System.in);
         System.out.print("Input a:");

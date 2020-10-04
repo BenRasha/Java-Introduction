@@ -1,7 +1,11 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Linear;
 
+/*Для данной области составить линейную программу, которая печатает true,
+ если точка с координатами (х, у) принадлежит закрашенной области, и false—в противном случаe
+ */
+
 import java.util.Scanner;
-public class LinearProgramm6 {
+public class LinearProgram6 {
     public static void main(String[] args)
     {
         Scanner scanner=new Scanner(System.in);
