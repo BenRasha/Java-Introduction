@@ -1,7 +1,9 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Branching;
 
+/*Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.*/
+
 import java.util.Scanner;
-public class BranchingProgramm3 {
+public class BranchingProgram3 {
     public static int inputOfDots()
     {
         Scanner scanner=new Scanner(System.in);

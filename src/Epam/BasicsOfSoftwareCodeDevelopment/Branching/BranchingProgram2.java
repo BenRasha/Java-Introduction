@@ -1,7 +1,9 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Branching;
 
+/*Найти max{min(a, b), min(c, d)}*/
+
 import java.util.Scanner;
-public class BranchingProgramm2 {
+public class BranchingProgram2 {
     public static int input ()
     {
         Scanner scanner=new Scanner(System.in);

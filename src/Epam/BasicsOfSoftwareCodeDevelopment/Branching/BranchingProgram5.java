@@ -1,7 +1,9 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Branching;
 
+/*Вычислить значение функции*/
+
 import java.util.Scanner;
-public class BranchingProgramm5 {
+public class BranchingProgram5 {
     public static int input()
     {
         Scanner scanner=new Scanner(System.in);

@@ -1,7 +1,9 @@
 package Epam.BasicsOfSoftwareCodeDevelopment.Branching;
 
+/*Заданы размеры А, В прямоугольного отверстия и размеры х, у, zкирпича. Определить, пройдет ли кирпич через отверстие.*/
+
 import java.util.Scanner;
-public class BranchingProgramm4 {
+public class BranchingProgram4 {
     public static int input()
     {
         Scanner scanner=new Scanner(System.in);
