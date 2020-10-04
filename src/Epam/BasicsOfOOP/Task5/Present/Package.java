@@ -1,8 +1,8 @@
-package Present;
+package BasicsOfOOP.Task5.Present;
 
-import EnumsForTask5.TypeOFColour;
-import EnumsForTask5.TypeOfMaterial;
-import EnumsForTask5.TypeOfPackages;
+import BasicsOfOOP.Task5.EnumsForTask5.TypeOFColour;
+import BasicsOfOOP.Task5.EnumsForTask5.TypeOfMaterial;
+import BasicsOfOOP.Task5.EnumsForTask5.TypeOfPackages;
 
 public class Package {
     private TypeOFColour typeOFColour;

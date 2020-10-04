@@ -1,4 +1,4 @@
-package EnumsForTask5;
+package BasicsOfOOP.Task5.EnumsForTask5;
 
 public enum TypeOFColour {
     RED,

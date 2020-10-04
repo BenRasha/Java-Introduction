@@ -1,6 +1,6 @@
-package Present;
+package BasicsOfOOP.Task5.Present;
 
-import EnumsForTask5.TypeOfSweets;
+import BasicsOfOOP.Task5.EnumsForTask5.TypeOfSweets;
 
 import java.util.ArrayList;
 import java.util.List;

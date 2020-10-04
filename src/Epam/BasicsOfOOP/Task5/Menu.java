@@ -1,8 +1,8 @@
 package BasicsOfOOP.Task5;
 
-import Present.Present;
-import Present.Package;
-import Present.Sweets;
+import BasicsOfOOP.Task5.Present.Present;
+import BasicsOfOOP.Task5.Present.Package;
+import BasicsOfOOP.Task5.Present.Sweets;
 
 import java.util.Scanner;
 

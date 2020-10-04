@@ -1,4 +1,4 @@
-package Present;
+package BasicsOfOOP.Task5.Present;
 
 public class Present {
     private Package aPackage;
@@ -20,7 +20,7 @@ public class Present {
 
     @Override
     public String toString() {
-        return "Present{" +
+        return "BasicsOfOOP.Task5.Present{" +
                 "aPackage=" + aPackage +
                 ", sweets=" + sweets +
                 '}';
