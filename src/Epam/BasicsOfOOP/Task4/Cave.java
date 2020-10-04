@@ -18,7 +18,7 @@ public class Cave {
     }
     private FileReader parseResourceFile()throws IOException{
         ClassLoader classLoader=getClass().getClassLoader();
-        return new FileReader(classLoader.getResource("Resources/Treasures").getFile());
+        return new FileReader(classLoader.getResource("BasicsOfOOP/Task4/Resources/Treasures").getFile());
     }
     private void addTreasure()throws IOException{
         Scanner scanner=new Scanner(parseResourceFile());
