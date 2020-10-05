@@ -1,11 +1,12 @@
 package Epam.Algorithms.OneDimensional;
 
+/*В массив A[N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.*/
+
 import java.util.Scanner;
 public class OneDimentional1 {
-    public static int input()
-    {
-        Scanner scan=new Scanner(System.in);
-        int x=scan.nextInt();
+    public static int input(){
+        Scanner scanner=new Scanner(System.in);
+        int x=scanner.nextInt();
         return x;
     }
     public static void main(String[] args)
@@ -20,14 +21,10 @@ public class OneDimentional1 {
         for(int i=0;i<n;i++)
         {
             array[i]=input();
-        }
-        for (int i=0;i<n;i++)
-        {
-            if(array[i]%divider==0) {
-                result += array[i];
-                System.out.print(result+",");
-                result=0;
+            if (array[i]%divider==0){
+                result+=array[i];
             }
         }
+        System.out.println("Result:"+result);
     }
 }

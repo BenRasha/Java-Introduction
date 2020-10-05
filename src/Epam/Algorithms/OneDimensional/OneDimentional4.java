@@ -1,5 +1,7 @@
 package Epam.Algorithms.OneDimensional;
 
+/*Даны действительные числа а1,а2,..., аn. Поменять местами наибольший и наименьший элементы.*/
+
 import java.util.Scanner;
 
 public class OneDimentional4 {

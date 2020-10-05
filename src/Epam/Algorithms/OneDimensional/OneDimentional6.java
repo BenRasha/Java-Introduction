@@ -1,5 +1,9 @@
 package Epam.Algorithms.OneDimensional;
 
+/*Task6. Задана последовательность Nвещественных чисел.
+ Вычислить сумму чисел, порядковые номера которых являются простыми числами.
+ */
+
 import java.util.Scanner;
 
 public class OneDimentional6 {

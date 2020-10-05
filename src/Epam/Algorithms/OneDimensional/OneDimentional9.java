@@ -1,5 +1,9 @@
 package Epam.Algorithms.OneDimensional;
 
+/*В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся число.
+ Если таких чисел несколько, то определить наименьшее из них.
+ */
+
 import java.util.Scanner;
 public class OneDimentional9 {
     public static void main(String[]args)

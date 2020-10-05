@@ -1,5 +1,7 @@
 package Epam.Algorithms.OneDimensional;
 
+/*Даны действительные числа a1,a2...an. Найти*/
+
 import java.util.Scanner;
 public class OneDimentional7 {
     public static void main(String[]args)
