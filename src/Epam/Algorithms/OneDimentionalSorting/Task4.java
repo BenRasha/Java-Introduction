@@ -1,5 +1,10 @@
 package Epam.Algorithms.OneDimentionalSorting;
 
+/*Сортировка обменами.Дана последовательность чисел a1<=a2<=an.Требуется переставить числа в порядке
+ возрастания.
+ Составить алгоритм сортировки, подсчитывая при этом количества перестановок.
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

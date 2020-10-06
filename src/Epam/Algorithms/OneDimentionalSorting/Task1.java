@@ -1,5 +1,11 @@
 package Epam.Algorithms.OneDimentionalSorting;
 
+/*Заданы два одномерных массива с различным количеством элементов и натуральное число k.
+ Объединить их в один массив, включив второй массив между k-м и (k+1) -м элементами первого,
+при этом не используя дополнительный массив.
+ */
+
+import java.util.Arrays;
 import java.util.Scanner;
 public class Task1 {
     public static void input(int arr[],int size)
@@ -18,14 +24,18 @@ public class Task1 {
     }
     public static void task(int arr1[],int arr2[],int size1,int size2,int k)
     {
-        for(int i=0;i<k;i++)
-        {
-            System.out.println(arr1[i]);
+        int []result=new int[size1+size2-k+1];
+        int index=0;
+        for (int i=0;i<=k;i++){
+            result[i]=arr1[i];
+            index++;
         }
-        for(int j=0;j<size2;j++)
-        {
-            System.out.println(arr2[j]);
+        for (int i=0;i<size2;i++){
+            result[index-1]=arr2[i];
+            index++;
         }
+
+        System.out.println(Arrays.toString(result));
     }
     public static void main(String[]args)
     {

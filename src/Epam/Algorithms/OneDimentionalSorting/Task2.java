@@ -1,5 +1,10 @@
 package Epam.Algorithms.OneDimentionalSorting;
 
+/*Даны две последовательности a1<=a2<=..<=an b1<=b2<=..<=bm.
+ Образовать из них новую последовательность чисел так, чтобы она тоже была неубывающей.
+ Примечание.Дополнительный массив не использовать.
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 public class Task2 {

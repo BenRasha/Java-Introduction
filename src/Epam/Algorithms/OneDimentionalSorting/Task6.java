@@ -1,5 +1,9 @@
 package Epam.Algorithms.OneDimentionalSorting;
 
+/*Сортировка Шелла.Дан массив n действительных чисел. Требуется упорядочить его по возрастанию.
+ Составить алгоритм этой сортировки.
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

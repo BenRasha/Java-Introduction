@@ -1,5 +1,10 @@
 package Epam.Algorithms.OneDimentionalSorting;
 
+/*Сортировка выбором.Дана последовательность чисел a1<=a2<=an.
+Требуется переставить элементы так, чтобы они были расположены по убыванию.
+ Написать алгоритм сортировки выбором.
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

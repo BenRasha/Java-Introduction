@@ -1,5 +1,10 @@
 package Epam.Algorithms.OneDimentionalSorting;
 
+/*Пусть даны две неубывающие последовательности действительных чисел a1<=a2<=..<=an b1<=b2<=..<=bm.
+ Требуется указатать те места, на которые нужно вставлять элементы последовательности b1<=b2<=..<=bm
+ в первую последовательность так, чтобы новая последовательность оставалась возрастающей.
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -21,12 +26,13 @@ public class Task7 {
 
     public static void task(int []array1,int []array2)
     {
-        for(int i=0;i<array2.length;i++){
-            for(int j=0;j<array1.length;j++){
-                if(array2[i]>array1[j]){
-                    System.out.println("if we want to start parsing from "+(i+1)+" we need to do it from "+(j+1)+" position");
+        for(int i=0;i<array1.length;i++){
+            for(int j=0;j<array2.length;j++){
+                if(array2[j]>array1[i]){
+                    System.out.println("if we want to start parsing from "+(i+1)+" in first array,  we need to do it from "+(j+1)+" position in second array");
                     break;
                 }
+                continue;
             }
         }
     }
