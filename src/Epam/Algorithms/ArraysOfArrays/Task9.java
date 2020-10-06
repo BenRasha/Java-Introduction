@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Задана матрица неотрицательных чисел. Посчитать сумму элементов в каждом столбце. Определить, какой столбец содержит максимальную сумму.*/
+
 import java.util.Scanner;
 public class Task9 {
     public static void input(int arr[][],int n)

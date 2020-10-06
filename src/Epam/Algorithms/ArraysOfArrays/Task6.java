@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Сформировать квадратную матрицу порядка nпо заданному образцу(n-четное):*/
+
 import java.util.Scanner;
 public class Task6 {
     public static void input(int arr[][], int n){

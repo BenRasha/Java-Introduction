@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.*/
+
 import java.util.Scanner;
 public class Task2 {
     public static void input(int arr[][], int rows, int columns)

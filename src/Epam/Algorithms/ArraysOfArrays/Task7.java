@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Сформировать квадратную матрицу порядка Nпо правилу:*/
+
 import java.util.Scanner;
 public class Task7 {
     public static void input(double arr[][],int n)

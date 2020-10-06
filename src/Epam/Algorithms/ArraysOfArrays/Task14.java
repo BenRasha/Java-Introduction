@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/* Сформировать случайную матрицу mxn, состоящую из нулей и единиц, причем в каждом столбце число единиц равно номеру столбца.*/
+
 import java.util.Scanner;
 public class Task14 {
     public static void input(int arr[][],int n,int m)

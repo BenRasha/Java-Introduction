@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Отсотрировать стобцы матрицы по возрастанию и убыванию значений эементов.*/
+
 import java.util.Scanner;
 
 public class Task13 {

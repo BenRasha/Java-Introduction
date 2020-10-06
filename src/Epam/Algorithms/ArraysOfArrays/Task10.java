@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Найти положительные элементы главной диагонали квадратной матрицы.*/
+
 import java.util.Scanner;
 public class Task10 {
     public static void input(int arr[][],int n)

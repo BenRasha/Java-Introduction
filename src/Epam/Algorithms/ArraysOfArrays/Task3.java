@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Дана матрица. Вывести k-ю строку и p-й столбец матрицы.*/
+
 import java.util.Scanner;
 public class Task3 {
     public static void input(int arr[][], int rows, int columns)

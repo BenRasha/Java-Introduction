@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.*/
+
 import java.util.Scanner;
 public class Task1 {
     public static void input(int arr[][], int rows, int columns)

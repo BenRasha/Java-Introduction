@@ -1,6 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
-import java.util.Arrays;
+/*Отсортировать строки матрицы по возрастанию и убыванию значений элементов.*/
+
 import java.util.Scanner;
 public class Task12{
     public static void input(int arr[][],int n)

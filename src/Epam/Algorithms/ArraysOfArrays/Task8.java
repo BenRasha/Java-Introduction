@@ -1,5 +1,10 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*В числовой матрице поменять местами два столбца любых столбца,
+ т. е. все элементы одного столбца поставить на соответствующие им позиции другого, а его элементы второго переместить в первый.
+ Номера столбцов вводит пользователь с клавиатуры.
+ */
+
 import java.util.Scanner;
 public class Task8 {
     public static void input(int arr[][],int n,int m)

@@ -1,5 +1,7 @@
 package Epam.Algorithms.ArraysOfArrays;
 
+/*Найдите наибольший элемент матрицы и заменить все нечетные элементы на него.*/
+
 import java.util.Scanner;
 
 public class Task15 {
