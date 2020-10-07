@@ -1,5 +1,7 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnArrayOfCharacters;
 
+/*Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.*/
+
 public class Task1 {
     public static String camelToSnake(String str)
     {

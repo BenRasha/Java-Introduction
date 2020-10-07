@@ -1,5 +1,7 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnArrayOfCharacters;
 
+/*В строке найти количество чисел.*/
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

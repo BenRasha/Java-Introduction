@@ -1,5 +1,7 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnArrayOfCharacters;
 
+/* В строке найти количество цифр.*/
+
 public class Task3 {
     public static int digitsCounter(String str)
     {

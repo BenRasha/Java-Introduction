@@ -1,15 +1,13 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnArrayOfCharacters;
 
+/*Замените в строке все вхождения 'word' на 'letter'.*/
+
 public class Task2 {
     public static String replacement(String str)
     {
         String result="";
-        String word="word";
-        word.toCharArray();
-        String letter="letter";
-        letter.toCharArray();
         for (int i=0;i<str.length();i++){
-            result+=str.replace(word,letter);
+            result+=str.replace("word","letter");
             break;
         }
         return result;
