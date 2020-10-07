@@ -1,7 +1,10 @@
 package Epam.Algorithms.Decomposition;
 
+/*Дано натуральное число N. Написать метод(методы)для формирования массива,
+ элементами которого являются цифры числа N.
+ */
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task10 {
@@ -12,8 +15,10 @@ public class Task10 {
             arrayList.add(a%10);
             a/=10;
         }while(a!=0);
-        for(int i=0;i<arrayList.size();i++) {
-            System.out.println("[" + (i + 1) + "]" + arrayList.get(i));
+        int counter=1;
+        for(int i=arrayList.size()-1;i>-1;i--) {
+            System.out.println("[" + counter + "]" + arrayList.get(i));
+            counter++;
         }
     }
     public static void main(String[]args)

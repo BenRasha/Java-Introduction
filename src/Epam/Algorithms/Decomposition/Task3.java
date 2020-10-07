@@ -1,5 +1,9 @@
 package Epam.Algorithms.Decomposition;
 
+/*Вычислить площадь правильного шестиугольника со стороной а,
+ используя методвычисления площади треугольника.
+ */
+
 import java.util.Scanner;
 
 public class Task3 {

@@ -1,7 +1,11 @@
 package Epam.Algorithms.Decomposition;
 
+/*Задан массив D. Определить следующие суммы:D[l] + D[2] + D[3]; D[3] + D[4] + D[5]; D[4] +D[5] +D[6].
+ Пояснение.Составить метод(методы)для вычисления суммы трех последовательно расположенных элементов
+  массива с номерами от kдо m.
+ */
+
 import java.util.Arrays;
-import java.util.Scanner;
 public class Task8 {
     public static void input(int []array)
     {
@@ -22,19 +26,12 @@ public class Task8 {
         return sum;
     }
     public static void main(String[]args) throws Exception {
-        Scanner scanner=new Scanner(System.in);
-        System.out.print("Input size of the array:");
-        int size=scanner.nextInt();
-        int []array=new int[size];
+        int []array=new int[9];
         input(array);
         System.out.println("Your array");
         output(array);
-        System.out.println("Input first index:");
-        int k=scanner.nextInt();
-        int m=k+3;
-        if(m>size){
-            throw new Exception("Second index bigger then size of array!");
-        }
-        System.out.println("Your sum:"+task(array,k,m));
+        System.out.println("Your sum from 1 to 3:"+task(array,0,3));
+        System.out.println("Your sum from 4 to 6:"+task(array,3,6));
+        System.out.println("Your sum from 7 to 9:"+task(array,6,9));
     }
 }

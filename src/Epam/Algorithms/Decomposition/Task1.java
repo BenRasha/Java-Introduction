@@ -1,5 +1,9 @@
 package Epam.Algorithms.Decomposition;
 
+/*Написать метод(методы)для нахождения наибольшего общего делителя и наименьшего общего
+ кратного двух натуральных чисел:*/
+
+
 import java.util.Scanner;
 
 public class Task1 {

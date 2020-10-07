@@ -1,5 +1,9 @@
 package Epam.Algorithms.Decomposition;
 
+/*Найти все натуральные n-значные числа, цифры в которых образуют строго возрастающую последовательность
+(например, 1234, 5789).Для решения задачи использовать декомпозицию.
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

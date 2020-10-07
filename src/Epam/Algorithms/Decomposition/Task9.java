@@ -1,5 +1,10 @@
 package Epam.Algorithms.Decomposition;
 
+/*Даны числа X, Y, Z, Т —длины сторон четырехугольника.
+ Написать метод(методы) вычисленияего площади, если угол между сторонами длиной Xи Y—прямой.
+ */
+
+
 import java.util.Scanner;
 public class Task9 {
     public static double triangleGeron(double a,double b,double c)

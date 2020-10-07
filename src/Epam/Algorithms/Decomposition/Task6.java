@@ -1,5 +1,7 @@
 package Epam.Algorithms.Decomposition;
 
+/*Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.*/
+
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -8,6 +10,7 @@ public class Task6 {
     public static void fill(int[]array)
     {
         Scanner input=new Scanner(System.in);
+        System.out.println("Input three numbers:");
         for(int i=0;i<array.length;i++)
         {
             array[i]=input.nextInt();

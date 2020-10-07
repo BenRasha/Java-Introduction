@@ -1,34 +1,41 @@
 package Epam.Algorithms.Decomposition;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+/*Даны натуральные числа К и N. Написать метод(методы)формирования массива А,
+ элементами которого являются числа, сумма цифр которых равна К и которые не большее N.
+ */
+
+import java.util.Arrays;
 
 public class Task12 {
-    public static ArrayList<Integer> array(int k,int n)
-    {
-        ArrayList<Integer>arrayList=new ArrayList<>();
-        for(int i=0;i<n;i++){
-            if(digitsCount(i)==k){
-                arrayList.add(i);
-            }
+    private int k=8;
+    private int n=5;
+    public int[] getMass(int k, int n, int massLength) {
+        this.k = k;
+        this.n = n;
+        int[] mass = new int[massLength];
+        for (int i = 0; i < massLength; i++) {
+            mass[i] = getNumber();
         }
-        return arrayList;
+        return mass;
     }
-    public static int digitsCount(int number)
-    {
-        ArrayList<Integer>arrayList=new ArrayList<>();
-        do {
-            arrayList.add(number%10);
-            number/=10;
-        }while(number!=0);
-        int size=arrayList.size();
-        return size;
+
+    public int getNumber() {
+        int i = 0;
+        String temp = "";
+        while (i < k) {
+            int x = (int) (Math.random() * n + 1);
+            i = i + x;
+            temp = temp.concat(String.valueOf(x));
+        }
+        int number = Integer.parseInt(temp);
+        if (i > k) {
+            number = number - (i % k);
+        }
+        return number;
     }
     public static void main(String[]args)
     {
-        Scanner scanner=new Scanner(System.in);
-        System.out.print("Input first number:");
-        int k=scanner.nextInt();
-        System.out.print("Input second number:");
+        Task12 task12=new Task12();
+        System.out.println(Arrays.toString(task12.getMass(8,5,10)));
     }
 }

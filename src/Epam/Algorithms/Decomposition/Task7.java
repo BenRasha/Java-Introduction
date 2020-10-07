@@ -1,5 +1,7 @@
 package Epam.Algorithms.Decomposition;
 
+/*Написать метод(методы) для вычисления суммы факториалов всех нечетных чисел от 1 до 9.*/
+
 import java.util.Scanner;
 public class Task7 {
     public static int factorial(int number)

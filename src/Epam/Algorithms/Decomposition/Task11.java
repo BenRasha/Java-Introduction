@@ -1,5 +1,7 @@
 package Epam.Algorithms.Decomposition;
 
+/*Написать метод(методы), определяющий, в каком из данных двух чисел больше цифр.*/
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,11 +31,11 @@ public class Task11 {
     public static void digitsCheck(ArrayList<Integer>arrayList1,ArrayList<Integer>arrayList2)
     {
         if(arrayList1.size()>arrayList2.size()){
-            System.out.println("First number consists of more digits");
+            System.out.println("First number contains more digits");
         }else if(arrayList1.size()<arrayList2.size()){
-            System.out.println("second number consists of more digits");
+            System.out.println("second number contains more digits");
         }else{
-            System.out.println("they consist of the same number of digits");
+            System.out.println("they contain the same number of digits");
         }
     }
     public static void main(String[]args) {
