@@ -1,5 +1,7 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnObjectOfTypeString;
 
+/*Дан текст(строка). Найдите наибольшее количество подряд идущих пробелов в нем.*/
+
 public class Task1 {
     public static int spaceCounter(String string) {
         int counter=0;
@@ -18,7 +20,7 @@ public class Task1 {
     }
     public static void main(String args[])
     {
-        String text="   Check    this out         ";
+        String text="   Check    this out           ";
         System.out.println("Max space found:"+spaceCounter(text));
     }
 }

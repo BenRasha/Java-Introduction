@@ -1,5 +1,7 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnObjectOfTypeString;
 
+/* Проверить, является ли заданное слово палиндромом.*/
+
 public class Task3 {
     public static boolean palindromeCheck(String string)
     {
@@ -12,7 +14,7 @@ public class Task3 {
     }
     public static void main(String args[])
     {
-        String text="abad";
+        String text="aba";
         if (palindromeCheck(text)){
             System.out.println("Palindrome");
         }else{

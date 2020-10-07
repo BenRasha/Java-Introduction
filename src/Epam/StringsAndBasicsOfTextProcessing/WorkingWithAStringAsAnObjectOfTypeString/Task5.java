@@ -1,5 +1,7 @@
 package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnObjectOfTypeString;
 
+/*Подсчитать, сколько раз среди символов заданной строки встречается буква “а”.*/
+
 public class Task5 {
     public static int symbolCounter(String string)
     {

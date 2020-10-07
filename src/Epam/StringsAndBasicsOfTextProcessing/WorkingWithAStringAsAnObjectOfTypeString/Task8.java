@@ -1,3 +1,8 @@
+package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnObjectOfTypeString;
+
+/*Вводится строка слов, разделенных пробелами. Найти самое длинное слово и вывести его на экран.
+ Случай, когда самых длинных слов может быть несколько, не обрабатывать.*/
+
 import java.util.Scanner;
 
 public class Task8 {

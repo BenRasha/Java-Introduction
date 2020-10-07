@@ -1,3 +1,7 @@
+package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnObjectOfTypeString;
+
+/*Вводится строка. Требуется удалить из нее повторяющиеся символы и все пробелы.
+ Например, если было введено "abccdedef", то должно быть выведено "abcdef".*/
 
 public class Task7 {
     public static String spaceCleaner(String string)
