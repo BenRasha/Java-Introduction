@@ -1,3 +1,9 @@
+package Epam.StringsAndBasicsOfTextProcessing.WorkingWithAStringAsAnObjectOfTypeString;
+
+/*Посчитать количество строчных (маленьких) и прописных (больших) букв
+ в введенной строке. Учитывать только английские буквы.
+ */
+
 import java.util.Scanner;
 
 public class Task9 {
