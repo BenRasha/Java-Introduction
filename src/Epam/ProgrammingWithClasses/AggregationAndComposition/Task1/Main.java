@@ -1,5 +1,8 @@
 package AggregationAndComposition.Task1;
 
+/*Создать объект класса Текст, используя классы Предложение, Слово. Методы: дополнить текст, вывести на консоль текст, заголовок текста.
+ */
+
 import java.util.ArrayList;
 
 public class Main {
