@@ -1,5 +1,7 @@
 package BasicsOfOOP.Task2;
 
+/*Создать класс Paymentс внутренним классом, с помощью объектов которого можно сформировать покупку из нескольких товаров.*/
+
 public class Main {
     public static void main(String args[]){
         Payment birthdayCart=new Payment("Birthday Cart");

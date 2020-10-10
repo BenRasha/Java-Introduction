@@ -4,8 +4,6 @@ import BasicsOfOOP.Task5.Present.Present;
 import BasicsOfOOP.Task5.Present.Package;
 import BasicsOfOOP.Task5.Present.Sweets;
 
-import java.util.Scanner;
-
 public class Menu {
     static Present present;
     static Package aPackage;
@@ -15,15 +13,11 @@ public class Menu {
     }
 
     public void createAPackage(){
-        Scanner scanner=new Scanner(System.in);
-        System.out.print("Input colour:");
-        String colour=scanner.nextLine();
+        String colour="RED";
         System.out.println("Type of colour:"+colour);
-        System.out.print("Input material:");
-        String material=scanner.nextLine();
+        String material="PAPER";
         System.out.println("Type of material:"+material);
-        System.out.print("Input type of package:");
-        String package1=scanner.nextLine();
+        String package1="BOX";
         System.out.println("Type of package:"+package1);
         aPackage=new Package.Builder()
                 .withColour(colour)
@@ -34,9 +28,7 @@ public class Menu {
     }
 
     public void createSweets(){
-        Scanner scanner=new Scanner(System.in);
-        System.out.print("Input sweets:");
-        String sweets1=scanner.next();
+        String sweets1="CHOCOLATE";
         System.out.println("Sweets:"+sweets1);
         sweets=new Sweets.Builder()
                 .addSweets(sweets1)

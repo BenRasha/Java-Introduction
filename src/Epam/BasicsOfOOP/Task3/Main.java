@@ -1,5 +1,7 @@
 package BasicsOfOOP.Task3;
 
+/*Создать класс Календарь с внутренним классом, с помощью объектов которого можно хранить информацию о выходных и праздничных днях.*/
+
 import java.time.LocalDate;
 
 public class Main {
