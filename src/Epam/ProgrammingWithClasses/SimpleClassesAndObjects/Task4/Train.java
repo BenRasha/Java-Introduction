@@ -1,8 +1,5 @@
 package ProgrammingWithClasses.SimpleClassesAndObjects.Task4;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Train {
 
     private String destinationName;

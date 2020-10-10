@@ -1,5 +1,9 @@
 package ProgrammingWithClasses.SimpleClassesAndObjects.Task2;
 
+/*Создйтекласс Test2 c двумя переменными. Добавьте конструктор с входными параметрами.
+ Добавьте конструктор, инициализирующий члены класса по умолчанию. Добавьте set-и get-методы для полей экземпляра класса.
+ */
+
 public class Main {
     public static void main(String args[])
     {
